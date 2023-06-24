@@ -1,0 +1,2 @@
+---
+blocks: show-compass
