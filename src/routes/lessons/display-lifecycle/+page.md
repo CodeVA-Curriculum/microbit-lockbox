@@ -8,7 +8,7 @@ Your teacher will use the slide deck below when they facilitate this lesson--fee
 
 Here are some tutorials to review some basic output options and lifecycle functions that you'll need to use when you write code with the Micro:Bit:
 
-::tutorial{slug="uploading-code"}
+::tutorial{slug="getting-started"}
 ::tutorial{slug="show-blocks"}
 ::tutorial{slug="lifecycle"}
 
