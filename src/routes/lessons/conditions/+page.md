@@ -1,8 +1,6 @@
 :::slides{link="https://docs.google.com/presentation/d/e/2PACX-1vT42sOyXYv6xcFg-GC1WAppXLrMuQhbY9bgm47xOZ2LaMdV50Dv6jfMUEOVlbzx6CeC_Qa5hMXo5mx8" lesson="https://docs.google.com/document/d/1rCQTAS8NgyVWXpFHhCvWUsApA-rj4LOX2Zk3WPq8t14/edit?usp=drive_link" }
 # MicroBit Lockbox Puzzle
 
-TODO:
-
 Your teacher will use the slide deck below when they facilitate this lesson--feel free to use this copy to access links, etc.
 :::
 ---
@@ -17,9 +15,11 @@ Here are some tutorials on the basics of conditional control structures, which a
 
 ## Conditionals Demonstration
 
-Download the `.hex` file below by clicking the button. Load it onto your MicroBit, and press the buttons to start up the program. After 30 seconds, the Micro:Bit will give you some output based on how you interact with the buttons during the 30 seconds.
+Download the `.hex` file below by clicking the button. Load it onto your MicroBit, and press the `A` button to start up the program. End the program by shaking the Micro:Bit, and it will give you some output based on how you interacted with the buttons.
 
-::download{file="conditions-demo.hex"}
+::download[Download]{file="conditions-demo.hex"}
+
+> Experiment with the program a couple of times before you look at the code! What happens if you press the button lots of times? Just a few times?
 
 Consider the following questions after running the program:
 
@@ -30,6 +30,8 @@ Consider the following questions after running the program:
 ## Make
 
 Previously, you created a [fidget cube](/lessons/input) project to prototype your lockbox puzzle. Now, you'll use variables and "if" statements to turn your "fidget cube" into a puzzle box.
+
+<!-- TODO: project details -->
 
 Here are some ideas for how you might use conditionals and variables in your lockbox puzzle. Check out the tutorials, and then use the *Project Design Menu* in your handbook to make a plan for how you'll modify your "fidget cube" to turn it into a puzzle box. You will probably want to combine and/or modify the examples below to make your box challenging enough!
 

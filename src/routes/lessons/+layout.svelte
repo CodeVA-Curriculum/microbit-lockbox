@@ -4,10 +4,6 @@
 
 <div class='lessons'>
     <Nav links={[{
-        text:"About",
-        path:"/about"
-    },
-    {
         text:"Tutorials",
         path:"/tutorials"
     },
