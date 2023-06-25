@@ -1,16 +1,15 @@
-:::slides{link="https://docs.google.com/presentation/d/e/2PACX-1vT42sOyXYv6xcFg-GC1WAppXLrMuQhbY9bgm47xOZ2LaMdV50Dv6jfMUEOVlbzx6CeC_Qa5hMXo5mx8"}
-# Micro:Bit Lockbox Puzzle
+:::slides{link="https://docs.google.com/presentation/d/e/2PACX-1vT42sOyXYv6xcFg-GC1WAppXLrMuQhbY9bgm47xOZ2LaMdV50Dv6jfMUEOVlbzx6CeC_Qa5hMXo5mx8" lesson="https://docs.google.com/document/d/1rCQTAS8NgyVWXpFHhCvWUsApA-rj4LOX2Zk3WPq8t14/edit?usp=drive_link" }
+# MicroBit Lockbox Puzzle
 
 TODO:
 
 Your teacher will use the slide deck below when they facilitate this lesson--feel free to use this copy to access links, etc.
 :::
-
 ---
 
 ## Conditionals Basics
 
-Here are some tutorials on the basics of conditional control structures, which allow you to have your Micro:Bit make automated decisions based on the values of variables stored in its memory.
+Here are some tutorials on the basics of conditional control structures, which allow you to have your MicroBit make automated decisions based on the values of variables stored in its memory.
 
 ::tutorial{slug="if-basics"}
 ::tutorial{slug="logic-expressions"}
@@ -18,7 +17,7 @@ Here are some tutorials on the basics of conditional control structures, which a
 
 ## Conditionals Demonstration
 
-Download the `.hex` file below by clicking the button. Load it onto your Micro:Bit, and press the buttons to start up the program. After 30 seconds, the Micro:Bit will give you some output based on how you interact with the buttons during the 30 seconds.
+Download the `.hex` file below by clicking the button. Load it onto your MicroBit, and press the buttons to start up the program. After 30 seconds, the Micro:Bit will give you some output based on how you interact with the buttons during the 30 seconds.
 
 ::download{file="conditions-demo.hex"}
 
@@ -27,10 +26,6 @@ Consider the following questions after running the program:
 - What decision did the computer make?
 - What data do you think the computer used in order to make that decision?
 - What would you need to know about the input provided to the program in order to predict its output?
-
-## Predict, Run, Investigate
-
-TODO:
 
 ## Make
 

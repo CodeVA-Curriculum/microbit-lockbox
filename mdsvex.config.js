@@ -9,6 +9,7 @@ const config = defineConfig({
   extensions: [".svelte.md", ".md", ".svx"],
   layout: {
     _: './src/lib/components/MdWrapper.svelte',
+    lesson: './src/lib/components/LessonWrapper.svelte'
   },
   smartypants: {
     dashes: "oldschool",
