@@ -4,7 +4,7 @@ TODO: description
 
 Here are some tutorials to review the basics of using variables, relational expressions, and "if" statements:
 
-::tutorial{slug="variables-basics"}
+::tutorial{slug="variable-basics"}
 
 ## Predict, Run, Investigate
 

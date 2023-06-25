@@ -25,6 +25,7 @@
   "type": "module",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@sveltejs/adapter-static": "^2.0.2",
     "remark-directive": "^2.0.1",
     "remark-directive-rehype": "^0.4.2",
     "remark-frontmatter": "^4.0.1",
