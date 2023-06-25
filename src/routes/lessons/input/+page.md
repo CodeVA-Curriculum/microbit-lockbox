@@ -12,7 +12,7 @@ Here is a tutorial on the basics of "event blocks"--these are the kinds of block
 
 ## Predict, Run, Investigate, Debug & Modify
 
-Each of the following tutorials below has examples of how to implement a particular style of input using the Micro:Bit, along with questions that prompt you to investigate the code and develop fluency before applying the concept to your own project. Choose input strategies you are interested in, and try them out on your Micro:Bit!
+Each of the following tutorials below has examples of how to implement a particular style of input using the Micro:Bit. Choose input strategies you are interested in, and try them out on your Micro:Bit!
 
 ::tutorial{slug="button-events"}
 ::tutorial{slug="pin-events"}

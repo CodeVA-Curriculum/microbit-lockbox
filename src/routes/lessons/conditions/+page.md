@@ -1,5 +1,5 @@
 :::slides{link="https://docs.google.com/presentation/d/e/2PACX-1vT42sOyXYv6xcFg-GC1WAppXLrMuQhbY9bgm47xOZ2LaMdV50Dv6jfMUEOVlbzx6CeC_Qa5hMXo5mx8"}
-# Conditionals
+# Micro:Bit Lockbox Puzzle
 
 TODO:
 
@@ -15,7 +15,6 @@ Here are some tutorials on the basics of conditional control structures, which a
 ::tutorial{slug="if-basics"}
 ::tutorial{slug="logic-expressions"}
 ::tutorial{slug="if-else"}
-::tutorial{slug="if-elseif"}
 
 ## Conditionals Demonstration
 
@@ -35,13 +34,12 @@ TODO:
 
 ## Make
 
-Previously, you created a [fidget cube](TODO:) project to prototype your lockbox puzzle. Now, you'll use variables and "if" statements to turn your "fidget cube" into a puzzle box.
+Previously, you created a [fidget cube](/lessons/input) project to prototype your lockbox puzzle. Now, you'll use variables and "if" statements to turn your "fidget cube" into a puzzle box.
 
 Here are some ideas for how you might use conditionals and variables in your lockbox puzzle. Check out the tutorials, and then use the *Project Design Menu* in your handbook to make a plan for how you'll modify your "fidget cube" to turn it into a puzzle box. You will probably want to combine and/or modify the examples below to make your box challenging enough!
 
-::tutorial{slug="unlock-with-position"}
 ::tutorial{slug="unlock-with-count"}
 ::tutorial{slug="unlock-with-logic"}
-::tutorial{slug="unlock-in-stages"}
+::tutorial{slug="unlock-with-stages"}
 
-You can also browse the [*Tutorials* page](TODO:) to find information about other blocks, techniques, and concepts to use when crafting your puzzle!
+You can also browse the [*Tutorials* page](/tutorials) to find information about other blocks, techniques, and concepts to use when crafting your puzzle!

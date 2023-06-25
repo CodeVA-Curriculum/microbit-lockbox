@@ -24,10 +24,12 @@
   },
   "type": "module",
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "remark-directive": "^2.0.1",
     "remark-directive-rehype": "^0.4.2",
     "remark-frontmatter": "^4.0.1",
     "remark-gfm": "^3.0.1",
-    "remark-parse": "^10.0.2"
+    "remark-parse": "^10.0.2",
+    "svelte-fa": "^3.0.4"
   }
 }

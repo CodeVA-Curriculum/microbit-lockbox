@@ -15,7 +15,7 @@
         text:"Lessons",
         path:"/lessons"
     }]} />
-    <div class='container'>
+    <div class='container section'>
         <slot />
     </div>
 </div>

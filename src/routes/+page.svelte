@@ -1,6 +1,8 @@
 <script>
     import {base} from '$app/paths'
     import Nav from '$lib/components/Nav.svelte'
+
+    
 </script>
 
 <section class='hero is-fullheight-with-navbar homepage'>
