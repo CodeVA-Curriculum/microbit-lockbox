@@ -4,6 +4,9 @@ import preprocess from "svelte-preprocess";
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from "@sveltejs/kit/vite";
 
+// load content to prerender
+
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   extensions: [".svelte", ...mdsvexConfig.extensions],
