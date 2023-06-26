@@ -4,5 +4,8 @@ import a from './Link.svelte'
 import download from './Download.svelte'
 import youtube from './YouTube.svelte'
 import slides from './Slides.svelte'
+import makecode from './MakeCode.svelte'
+import button from './Button.svelte'
+import table from './ProjectTable.svelte'
 
-export { p, tutorial, a, download, youtube, slides };
+export { makecode, p, tutorial, a, download, youtube, slides, button, table };
