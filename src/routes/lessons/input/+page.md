@@ -25,7 +25,7 @@ After you've tried implementing some input strategies, move on to the *Make* sta
 
 ## Make: "Fidget Cube" Prototype
 
-Create an enclosure for your Micro:Bit that allows a user to interact with sensors (input) to create different kinds of output. Here are some input examples:
+Create an enclosure for your MicroBit that allows a user to interact with sensors (input) to create different kinds of output. Here are some input examples:
 
 - Button presses
 - Gestures
@@ -76,7 +76,7 @@ Later on, you’ll extend this project to turn your “fidget cube” (which jus
 To complete the project, follow these steps:
 
 1. Create a plan for your “fidget cube” prototype. Draw, sketch, model, or diagram your enclosure, labeling the inputs and outputs you plan to use.
-2. Create the enclosure, including installing the MicroBit in your enclosure and hooking up any sensors you need to use to the Micro:Bit pins.
-3. Write the code for your prototype so the Micro:Bit produces a unique output for each input you included in your diagram.
+2. Create the enclosure, including installing the MicroBit in your enclosure and hooking up any sensors you need to use to the MicroBit pins.
+3. Write the code for your prototype so the MicroBit produces a unique output for each input you included in your diagram.
 
-You only need to make one prototype with your partner. Save your group’s second Micro:Bit for future activities. After you’ve finished your prototype, be ready to share it with another group and talk about the inputs you used!
+You only need to make one prototype with your partner. Save your group’s second MicroBit for future activities. After you’ve finished your prototype, be ready to share it with another group and talk about the inputs you used!

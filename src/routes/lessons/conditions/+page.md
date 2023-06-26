@@ -17,7 +17,7 @@ Here are some tutorials on the basics of conditional control structures, which a
 
 ## Conditionals Demonstration
 
-Download the `.hex` file below by clicking the button. Load it onto your MicroBit, and press the `A` button to start up the program. End the program by shaking the Micro:Bit, and it will give you some output based on how you interacted with the buttons.
+Download the `.hex` file below by clicking the button. Load it onto your MicroBit, and press the `A` button to start up the program. End the program by shaking the MicroBit, and it will give you some output based on how you interacted with the buttons.
 
 ::download[Download]{file="/examples/microbit-conditionals-demo.hex"}
 
@@ -38,9 +38,9 @@ Try modifying the code linked below (either download or open in MakeCode) accord
 ::download[Download]{file='/examples/microbit-conditionals-demo.hex'}
 ::button[Open in MakeCode]{href="https://makecode.microbit.org/_M5cMcq4VuhtM" style="is-primary"}
 
-- Can you modify the code so it shows different icons after the user shakes the Micro:Bit?
-- Can you make it so the user has to click a lot more times to get the “right arrow” icon after shaking the Micro:Bit?
-- Can you add another “if” block to make it so the Micro:Bit displays a third icon if the user doesn’t click the button at all?
+- Can you modify the code so it shows different icons after the user shakes the MicroBit?
+- Can you make it so the user has to click a lot more times to get the “right arrow” icon after shaking the MicroBit?
+- Can you add another “if” block to make it so the MicroBit displays a third icon if the user doesn’t click the button at all?
 
 ---
 

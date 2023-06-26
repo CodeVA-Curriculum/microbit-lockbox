@@ -23,16 +23,16 @@ You can download the starter code or open it in the MakeCode editor by clicking 
 
 Try running and modifying the code below to answer the following questions:
 
-- What would you add to the code to make it so the Micro:Bit keeps track of two players’ scores rather than just one?
+- What would you add to the code to make it so the MicroBit keeps track of two players’ scores rather than just one?
 
 ---
 
 ## Make: Scorekeeper
 
-Create a Micro:Bit program using variables and input events that allows you to keep score for a game. Be sure to consider the following questions:
+Create a MicroBit program using variables and input events that allows you to keep score for a game. Be sure to consider the following questions:
 
 - How many variables will you need to keep track of the score for your game?
-- What inputs will the Micro:Bit listen to in order to modify the variable?
+- What inputs will the MicroBit listen to in order to modify the variable?
 
 **Choose one of the prompts below** to help guide your work, or make up your own project that will allow you to practice creating and modifying variables in your code.
 
