@@ -12,3 +12,17 @@ export async function load({ params }){
       video,
     }
   }
+
+  // entries  
+  export async function entries() {
+    const paths = import.meta.glob('$lib/content/*.md')
+    let cleanPaths = []
+    for(const path in paths) {
+      cleanPaths.push({
+        slug: path.slice("/src/lib/content/".length, -3)
+      })
+    }
+    return cleanPaths;
+}
+
+  export const prerender = true;

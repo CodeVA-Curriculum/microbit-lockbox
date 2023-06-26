@@ -4,6 +4,7 @@
     import Fa from 'svelte-fa'
     import {faLink} from '@fortawesome/free-solid-svg-icons'
     import videoPlaceholder from '$lib/assets/video-placeholder.jpg'
+    import {fetchMarkdownPosts} from '$lib/utils/index'
     export let slug:string;
     export let get:boolean = true;
     export let tutorialData:any;
@@ -12,9 +13,18 @@
 
     onMount(async () => {
         if(get) {
-            const res = await fetch(`${base}/api/tutorials/${slug}`)
-            tutorialData = await res.json()
-            // console.log(tutorialData)
+            const posts = await fetchMarkdownPosts()
+            // console.log(posts)
+            for(const i in posts) {
+                if(posts[i].path.includes(slug)) {
+                    // console.log("Found post:", posts[i].path)
+                    tutorialData = {
+                        ...posts[i].meta,
+                        path: cleanPath(posts[i].path)
+                    }
+                    break
+                }
+            }
         }
     })
 
@@ -33,17 +43,17 @@
         {#if tutorialData}
         <div class='columns'>
             <div class='column is-narrow'>
-                    <iframe src={`https://www.youtube.com/embed/${tutorialData.meta.video}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src={`https://www.youtube.com/embed/${tutorialData.video}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <!-- <img src={videoPlaceholder} alt='Video placeholder image' /> -->
             </div>
             <div class='column'>
                 <h3>
-                    <a class='mr-1' href="{`${base}/tutorials/${cleanPath(tutorialData.path)}`}">
-                        {tutorialData.meta.title}
+                    <a class='mr-1' href="{`${base}/tutorials/${tutorialData.path}`}">
+                        {tutorialData.title}
                     </a>
                     <Fa icon={faLink} />
                 </h3>
-                <p>{tutorialData.meta.description}</p>
+                <p>{tutorialData.description}</p>
             </div>
         </div>
         

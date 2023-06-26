@@ -2,12 +2,11 @@
     import {onMount} from 'svelte'
     import {base} from '$app/paths'
     import Tutorial from '$lib/components/directives/Tutorial.svelte';
+    export let data;
 
     let tutorialData = []
     onMount(async () => {
-        const res = await fetch(`${base}/api/tutorials`)
-        tutorialData = await res.json()
-        console.log(tutorialData)
+        tutorialData = data.content
     })
 </script>
 <div class='tutorials content'>
