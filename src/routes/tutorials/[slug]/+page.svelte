@@ -22,7 +22,7 @@
     <div class='column is-two-thirds'>
       <!-- <iframe src={`https://www.youtube.com/embed/${data.video}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
       <video width="100%" controls>
-        <source src="{base}/videos/getting-started.mp4" type="video/mp4">
+        <source src="{base}/videos/{data.video}.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
     </div>

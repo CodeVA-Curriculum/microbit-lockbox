@@ -4,5 +4,5 @@ description: In this tutorial, learn about the built-in variables that allow you
 type: block
 authors: Jon Stapleton
 date: 2023-60-24
-video: roZ5_2D0-bY
+video: sensor-variables
 ---

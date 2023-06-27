@@ -6,5 +6,5 @@ date: 2023-06-24
 blocks: on-gesture
 type: block
 tags: input, event
-video: yNhtb4L1VHc
+video: gesture-events
 ---

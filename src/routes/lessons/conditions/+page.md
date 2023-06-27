@@ -48,7 +48,8 @@ Try modifying the code linked below (either download or open in MakeCode) accord
 
 Check out the example code below, and try to predict what it will cause the MicroBit to do:
 
-::makecode{id="_UzmWYybEPiDL"}
+<!-- ::makecode{id="_UzmWYybEPiDL"} -->
+![A screenshot of a MakeCode program](/conditions-primm-image.png)
 
 ::download[Download]{file="/examples/microbit-logic-demo.hex"}
 ::button[Open in MakeCode]{href="https://makecode.microbit.org/_UzmWYybEPiDL" style='is-primary'}

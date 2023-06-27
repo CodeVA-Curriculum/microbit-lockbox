@@ -6,5 +6,5 @@ date: 2023-06-24
 type: concept
 blocks: on-start
 tags: basics, lifecycle
-video: odXlBt4-FCg
+video: getting-started
 ---

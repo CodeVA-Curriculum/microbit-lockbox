@@ -14,7 +14,8 @@ Here is a tutorial to review the basics of using variables:
 
 Check out the starter code below:
 
-::makecode{id='_gRW4e5XFz3R3'}
+<!-- ::makecode{id='_gRW4e5XFz3R3'} -->
+![A screenshot of a MakeCode program](/variables-primm-image.png)
 
 You can download the starter code or open it in the MakeCode editor by clicking the buttons below:
 

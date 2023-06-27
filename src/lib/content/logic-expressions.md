@@ -4,5 +4,5 @@ description: In this tutorial, learn how to combine relational expressions using
 authors: Jon Stapleton
 date: 2023-06-24
 type: block
-video: S3-Y6k_tpIQ
+video: logic-expressions
 ---

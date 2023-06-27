@@ -6,5 +6,5 @@ date: 2023-06-24
 blocks: on-button-pressed
 tags: input, event
 type: block
-video: GZF38jlSGfo
+video: button-events
 ---

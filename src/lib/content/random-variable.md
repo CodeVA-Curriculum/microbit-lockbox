@@ -6,5 +6,5 @@ date: 2023-06-24
 type: block
 tags: randomization, variable, if-statement
 blocks: choose-random
-video: TGdZfmpn1wk
+video: randomization
 ---

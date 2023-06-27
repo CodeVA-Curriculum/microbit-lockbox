@@ -17,7 +17,8 @@ Here are some tutorials to review some basic output options and lifecycle functi
 
 To get started, check out the starter code below:
 
-::makecode{id='_A68LfXPCX6i4'}
+<!-- ::makecode{id='_A68LfXPCX6i4'} -->
+![A screenshot of a MakeCode program](/display-primm-image.png)
 
 You can download the starter code or open it in the MakeCode editor by clicking the buttons below:
 

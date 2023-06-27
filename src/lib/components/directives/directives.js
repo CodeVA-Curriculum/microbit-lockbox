@@ -7,5 +7,6 @@ import slides from './Slides.svelte'
 import makecode from './MakeCode.svelte'
 import button from './Button.svelte'
 import table from './ProjectTable.svelte'
+import img from './Image.svelte'
 
-export { makecode, p, tutorial, a, download, youtube, slides, button, table };
+export { makecode, p, tutorial, a, download, youtube, slides, button, table, img };

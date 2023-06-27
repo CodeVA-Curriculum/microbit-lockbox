@@ -5,5 +5,5 @@ authors: Jon Stapleton
 date: 2023-06-24
 type: block
 blocks: set-variables, change-variable
-video: UGf7ZOJNvXc
+video: variable-basics
 ---
