@@ -1,8 +1,9 @@
 import { mdsvex } from "mdsvex";
 import mdsvexConfig from "./mdsvex.config.js";
 import preprocess from "svelte-preprocess";
-import adapter from '@sveltejs/adapter-static';
+// import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from "@sveltejs/kit/vite";
+import adapter from "@ptkdev/sveltekit-electron-adapter";
 
 // load content to prerender
 
@@ -30,13 +31,14 @@ const config = {
     // adapter: adapter(),
     adapter: adapter({
       // default options are shown
-      pages: 'build',
-      assets: 'build',
-      fallback: null
+      // pages: 'build',
+      // assets: 'build',
+      // fallback: null,
+      strict: false
     }),
-    paths: {
-      base: '/microbit-lockbox', // uncomment this before deployment
-    }
+    // paths: {
+    //   base: '/microbit-lockbox', // uncomment this before deployment
+    // }
   },
 };
 

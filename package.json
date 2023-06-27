@@ -26,6 +26,7 @@
   "type": "module",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@ptkdev/sveltekit-electron-adapter": "^0.3.0",
     "@sveltejs/adapter-static": "^2.0.2",
     "remark-directive": "^2.0.1",
     "remark-directive-rehype": "^0.4.2",
