@@ -43,8 +43,12 @@
         {#if tutorialData}
         <div class='columns'>
             <div class='column is-narrow'>
-                    <iframe src={`https://www.youtube.com/embed/${tutorialData.video}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!-- <iframe src={`https://www.youtube.com/embed/${tutorialData.video}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                     <!-- <img src={videoPlaceholder} alt='Video placeholder image' /> -->
+                    <video width=280 height=160 controls>
+                        <source src="{base}/videos/getting-started.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
             </div>
             <div class='column'>
                 <h3>
@@ -72,5 +76,8 @@
     }
     a:hover {
         text-decoration: underline;
+    }
+    video {
+        border-radius: 12px;
     }
 </style>
