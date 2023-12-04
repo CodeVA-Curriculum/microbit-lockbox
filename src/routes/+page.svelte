@@ -7,10 +7,7 @@
 
 <section class='hero is-fullheight-with-navbar homepage'>
     <div class='hero-head'>
-		<Nav links={[{
-            text:"About",
-            path:"/about"
-        },
+		<Nav links={[
         {
             text:"Tutorials",
             path:"/tutorials"
